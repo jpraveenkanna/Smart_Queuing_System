@@ -16,18 +16,24 @@ The Smart Queuing System analyse number of people in the queue and will direct p
 # Testing the hardware
 <code>queue_job.sh</code> script is used to submit job to Intel Devcloud and the results are collected once the job is finished.
 
-The workspace is provided with <a href="https://software.intel.com/content/www/us/en/develop/topics/iot/hardware/iei-tank-dev-kit-core.html">IEI Tank AIOT Developer Kit</a>
+The workspace is provided with <a href="https://software.intel.com/content/www/us/en/develop/topics/iot/hardware/iei-tank-dev-kit-core.html">IEI Tank AIOT Developer Kit.</a>
 
-The list of all available hardwares in the developer kit are mentioned <a href="https://devcloud.intel.com/edge/get_started/devcloud/">here</a>
+The list of all available hardwares in the developer kit are mentioned <a href="https://devcloud.intel.com/edge/get_started/devcloud/">here.</a>
 
 
-The list of tested hardwares are as below
+The list of tested hardwares are as below.
 <ol>
   <li>CPU - <a href="https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-">Intel® Core™ i5-6500TE Processor </a></li>
   <li>Integrated GPU - <a href="https://ark.intel.com/products/88186/Intel-Core-i5-6500TE-Processor-6M-Cache-up-to-3-30-GHz-">Intel® HD Graphics 530 </a></li>
   <li>VPU - <a href="https://software.intel.com/en-us/neural-compute-stick">Intel® Neural Compute Stick 2</a></li>
   <li>FPGA - <a href="https://www.ieiworld.com/mustang-f100/en/">IEI Mustang-F100-A10</a></li>
 </ol>
+
+# Model
+
+The model is based on MobileNetV2-like backbone that includes depth-wise convolutions to reduce the amount of computation for the 3x3 convolution block. 
+
+The model is obtained from Open Model Zoo - <a href="https://docs.openvinotoolkit.org/2018_R5/_docs_Retail_object_detection_pedestrian_rmnet_ssd_0013_caffe_desc_person_detection_retail_0013.html">Person-detection-retail-0013</a>
 
 # Test results
 <table>
