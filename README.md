@@ -1,5 +1,5 @@
 # Smart Queuing System
-A Smart Queuing System that works for three different scenarios (Retail, Manufacturing and Transportation). To meet the customer requirements and constraints it is tested on CPU, Integrated GPU, VPU and FPGA and proposed best hardware choice.
+The Smart Queuing System analyse number of people in the queue and will direct people when the queue is full. It is tested for three different scenarios (Retail, Manufacturing and Transportation) and to meet the customer constraints it is tested seperately on CPU, Integrated GPU, VPU and FPGA and proposed best hardware choice.
 
 # Sample screenshots from output video
 <table>
