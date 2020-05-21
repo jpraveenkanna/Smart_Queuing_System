@@ -2,6 +2,27 @@
 A Smart Queuing System that works for three different scenarios (Retail, Manufacturing and Transportation). To meet the customer requirements and constraints it is tested on CPU, Integrated GPU, VPU and FPGA and proposed best hardware choice.
 
 # Sample screenshots from output video
+<table>
+  <tr>
+    <td align="center"><b>Retail Scenario</b></td>
+     
+  </tr>
+  
+   <tr>
+    <td align="center"><img src="/Images/retail_output.png" height=350 width=290></td>
+   </tr>
+    <tr>
+    <td align="center"><b>Transportation Scenario</b></td>
+    <td align="center"><b>Manufacturing Scenario</b></td>
+     </tr>
+
+  
+  <tr>
+    <td align="center"><img src="/Images/Transportation_output.png" height=350 width=290></td>
+    <td align="center"><img src="/Images/Manufacturing_output.png" height=350 width=290></td>
+     </tr>
+ </table>
+  
 
 # Testing the hardware
 <code>queue_job.sh</code> script is used to submit job to Intel Devcloud and the results are collected once the job is finished.
