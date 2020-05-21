@@ -3,24 +3,13 @@ A Smart Queuing System that works for three different scenarios (Retail, Manufac
 
 # Sample screenshots from output video
 <table>
-  <tr>
+  <tr align="center">
     <td align="center"><b>Retail Scenario</b></td>
-     
   </tr>
-  
-   <tr>
-    <td align="center"><img src="/Images/retail_output.png" height=350 width=290></td>
-   </tr>
-    <tr>
-    <td align="center"><b>Transportation Scenario</b></td>
-    <td align="center"><b>Manufacturing Scenario</b></td>
-     </tr>
-
-  
   <tr>
-    <td align="center"><img src="/Images/Transportation_output.png" height=350 width=290></td>
-    <td align="center"><img src="/Images/Manufacturing_output.png" height=350 width=290></td>
-     </tr>
+   <td align="center"><img src="/Images/retail_output.png" height=400 width=690></td>
+   </tr>
+   
  </table>
   
 
@@ -41,6 +30,29 @@ The list of tested hardwares are as below
 </ol>
 
 # Test results
+<table>
+  <tr align="center">
+    <td align="center"><b>Retail Scenario</b></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/Images/Retail_performance.png" height=400 width=690></td>
+   </tr>
+  
+  <tr align="center">
+  <td align="center"><b>Manufacturing Scenario</b></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/Images/Manufacturing_performance_graph.png" height=400 width=690></td>
+   </tr>
+   
+   <tr align="center">
+   <td align="center"><b>Transportation Scenario</b></td>
+  </tr>
+  <tr>
+   <td align="center"><img src="/Images/transportation_performance_graph.png" height=400 width=690></td>
+   </tr>
+   
+ </table>
 
 # Folder structure
 <code>person_detect.py</code> - The main python script which load the model, run inference and process the results.
@@ -58,4 +70,9 @@ The list of tested hardwares are as below
 <code>original_videos</code> - Input video for testing.
 
 # Sample output Video
+
+<table>
+ <tr>
+   <td align="center"><img src="/Images/output_retail.gif"></td>
+        </tr></table>
 
